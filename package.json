@@ -1,0 +1,30 @@
+{
+  "name": "api-ead",
+  "version": "0.0.1",
+  "description": "API da plataforma de ensino a distância",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyyberr/API-Projeto-de-Plataforma-EAD.git"
+  },
+  "keywords": [
+    "Plataforma",
+    "EAD"
+  ],
+  "author": "Fabio de Araujo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cyyberr/API-Projeto-de-Plataforma-EAD/issues"
+  },
+  "homepage": "https://github.com/cyyberr/API-Projeto-de-Plataforma-EAD#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^19.1.1"
+  }
+}
